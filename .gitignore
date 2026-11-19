@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+venv311/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large training datasets (not needed for deployment)
+data/crop_dataset/
+data/plantvillage/
+data/plantvillage_download/
+*.zip
+
+# Cloud keys and secrets
+aws/
+*.pem
+*.key
+.env
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
